@@ -1,0 +1,32 @@
+.revolution-section {
+    width: 679px;
+    height: 212.65px;
+    top: 229.82px;
+    Left: 149px;
+    position: absolute;
+    color: #F3FDFE;
+}
+
+.revolution-section .p1 {
+    font-size: 50px;
+    font-weight: 500;
+    line-height: 75px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin: 0;
+
+
+}
+
+.revolution-section .p2 {
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 75px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin: 0;
+}
+
+.revo-special {
+    color: #05D35D;
+}
