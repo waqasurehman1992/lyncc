@@ -7,7 +7,7 @@ const PowerSol = () => {
         <div className="powerful-content-main">
             <Container>
                 <div className="powerful-content-main-heading">
-                    <span>Our <span style={{ color: "rgba(5, 211, 93, 1)" }}>Powerful</span> Solutions</span>
+                    <span>Our Powerful Solutions</span>
                 </div>
                 <div className="main-outer">
                     <div className="powerful-content-main-description">

@@ -12,6 +12,7 @@ import SplitButton from 'react-bootstrap/SplitButton';
 import Slider from 'rc-slider';
 import 'rc-slider/assets/index.css';
 import Footer from "../../components/Footer/footer"
+import TitleAndDescriptionForSection from "../../components/TextTitleForHomePage/TittleHomePage"
 
 const Home = () => {
     return (
@@ -25,13 +26,17 @@ const Home = () => {
                     <div className="meet-us-home-section-text">
                         <div>
                             <button className="meet-us-btn">
+                                <div className="meet-us-arrow">
+                                    <img src="./arrow_meet_us_btn.png" alt="arrow_meet_us_btn" />
+                                </div>
                                 <span>Meet Us</span>
                             </button>
+                            <div className="lyncc-platform-text-1">
+                                <span>Lyncc Platform</span>
+                            </div>
                         </div>
                         <div className="text-section">
-                            <div className="lyncc-platform-text-1">
-                                <span>Lyncc <span className="text-platform">Platform</span></span>
-                            </div>
+
                             <div className="lyncc-platform-text-2">
                                 <p>
                                     Lynnc is a powerful (SaaS) platform designed to efficiently manage and track online orders across multiple food delivery apps. With a dedicated focus on optimizing operations in the food and beverage (F&B) and retail industries, Lynnc empowers businesses
@@ -123,25 +128,42 @@ const Home = () => {
                         <path d="M131 16.7166C131 17.0106 130.951 17.2735 130.855 17.5056C130.759 17.7376 130.629 17.9294 130.465 18.0903C130.301 18.2512 130.113 18.3718 129.899 18.4554C129.686 18.5389 129.46 18.5822 129.222 18.5822C128.984 18.5822 128.765 18.5389 128.551 18.4554C128.338 18.3718 128.149 18.2481 127.985 18.0903C127.822 17.9294 127.692 17.7345 127.593 17.5056C127.494 17.2766 127.448 17.0136 127.448 16.7166C127.448 16.4196 127.497 16.1628 127.593 15.9308C127.692 15.6988 127.822 15.5039 127.985 15.343C128.149 15.1821 128.338 15.0614 128.551 14.9779C128.765 14.8944 128.99 14.8511 129.222 14.8511C129.454 14.8511 129.686 14.8944 129.899 14.9779C130.113 15.0614 130.301 15.1852 130.465 15.343C130.629 15.5039 130.759 15.6988 130.855 15.9308C130.951 16.1628 131 16.4258 131 16.7166ZM130.552 16.7166C130.552 16.5001 130.518 16.3052 130.453 16.1257C130.388 15.9494 130.295 15.7978 130.178 15.6709C130.06 15.5441 129.918 15.4451 129.757 15.377C129.596 15.309 129.417 15.2749 129.222 15.2749C129.027 15.2749 128.848 15.309 128.687 15.377C128.527 15.4451 128.387 15.5441 128.27 15.6709C128.152 15.7978 128.063 15.9494 127.998 16.1257C127.933 16.3021 127.899 16.5001 127.899 16.7166C127.899 16.9332 127.933 17.1312 127.998 17.3106C128.063 17.4901 128.152 17.6417 128.27 17.7685C128.387 17.8954 128.527 17.9944 128.687 18.0624C128.848 18.1305 129.027 18.1645 129.222 18.1645C129.417 18.1645 129.596 18.1305 129.757 18.0624C129.918 17.9944 130.057 17.8954 130.178 17.7685C130.295 17.6417 130.388 17.4901 130.453 17.3106C130.518 17.1312 130.552 16.9332 130.552 16.7166ZM129.637 17.6695C129.569 17.5241 129.501 17.3942 129.429 17.2766C129.361 17.1591 129.296 17.06 129.235 16.9796H128.956V17.6695H128.523V15.7885C128.629 15.7607 128.734 15.7421 128.839 15.7328C128.944 15.7235 129.034 15.7173 129.111 15.7173C129.395 15.7173 129.612 15.7699 129.757 15.8782C129.902 15.9834 129.977 16.1474 129.977 16.3639C129.977 16.4815 129.949 16.5836 129.893 16.6702C129.838 16.7569 129.754 16.8249 129.649 16.8744C129.717 16.9734 129.791 17.0879 129.872 17.2209C129.952 17.3509 130.026 17.5025 130.103 17.6757H129.64L129.637 17.6695ZM128.956 16.63H129.102C129.235 16.63 129.343 16.6114 129.42 16.5743C129.501 16.5372 129.538 16.466 129.538 16.3547C129.538 16.2588 129.501 16.1907 129.426 16.1505C129.352 16.1102 129.259 16.0917 129.145 16.0917H129.055C129.027 16.0917 128.993 16.0948 128.953 16.101V16.6269L128.956 16.63Z" fill="#05D35D" />
                     </svg>
                 </div>
-                <div className="wessel"></div>
-                <div className="mrsool"></div>
-                <div className="shgardi"></div>
-                <div className="hunger_station"></div>
-                <div className="uber_eats"></div>
-                <div className="jahez"></div>
-                <div className="to_you"></div>
-                <div className="talabat"></div>
+                <div className="wessel">
+                    <img src="./wessel.png" alt="wessel.png" />
+                </div>
+                <div className="mrsool">
+                    <img src="./mrsool.png" alt="mrsool.png" />
+                </div>
+                <div className="shgardi">
+                    <img src="./shgardi.png" alt="shgardi.png" />
+                </div>
+                <div className="hunger_station">
+                    <img src="./hunger_station.png" alt="hunger_station.png" />
+                </div>
+                <div className="uber_eats">
+                    <img src="./uber_eats.png" alt="uber_eats.png" />
+                </div>
+                <div className="jahez">
+                    <img src="./jahez.png" alt="jahez.png" />
+                </div>
+                <div className="to_you">
+                    <img src="./to_you.png" alt="to_you.png" />
+                </div>
+                <div className="talabat">
+                    <img src="./talabat.png" alt="talabat.png" />
+                </div>
 
             </div>
             <PowerfulSol />
             <Container style={{ marginBottom: "100px" }}>
-                <div className="witness-efficiency">
+                {/* <div className="witness-efficiency">
+                <TitleAndDescriptionForSection title={"witness the efficiency"} description={"addressing your business challenges"} />
                     <div className="witness_the_efficiency-title-section">
                         <div className="witness_the_efficiency-title">
                             <span>witness the efficiency</span>
                         </div>
                         <div className="witness_the_efficiency-text1">
-                            <span>witness the <span style={{ color: "rgba(5, 211, 93, 1)" }}>efficiency</span></span>
+                            <span>witness the efficiency</span>
                         </div>
                         <div className="witness_the_efficiency-text2">
                             <span>See the difference Lynnc can make in your business operations</span>
@@ -153,84 +175,122 @@ const Home = () => {
                             <source src="./vid_1.mp4" />
                         </video>
                     </div>
-                </div>
+                </div> */}
                 <div className="business-challenge-outer">
                     <div className="business-challenge">
-                        <div className="witness_the_efficiency-title-section">
-                            <div className="witness_the_efficiency-title">
-                                <span>overcome your challenges</span>
-                            </div>
-                            <div className="witness_the_efficiency-text1">
-                                <span>addressing your <span style={{ color: "rgba(5, 211, 93, 1)" }}>business challenges</span></span>
-                            </div>
-
-                        </div>
+                        <TitleAndDescriptionForSection icon={true} title={"overcome your challenges"} description={"addressing your business challenges"} />
                         <div className="challenge-cards">
-                            <div className="single-challenge-card">
-                                <div className="challenge_text">
-                                    <span className="chanllenge_heading">Challenge</span>
-                                    <span className="chanllenge_des">
-                                        Manual communication with each delivery platform for menu management
-                                    </span>
+                            <div>
+                                <div className="single-challenge-card ">
+                                    <div className="challenge_text">
+                                        <span className="chanllenge_heading">Challenge</span>
+                                        <span className="chanllenge_des">
+                                            Manual communication with each delivery platform for menu management
+                                        </span>
+                                    </div>
+                                    <div className="challenge_text_hover">
+                                        <span className="chanllenge_heading">Solution</span>
+                                        <span className="chanllenge_des">
+                                            solution text goes here.solution text goes here.
+                                        </span>
+                                    </div>
+                                    <div className="keyboard-img" >
+                                        <img src="./keyboard.png" alt="keyboard" />
+                                    </div>
+
+
                                 </div>
-                                <div className="keyboard-img" >
-                                    <img src="./keyboard.png" alt="keyboard" />
+                                <div className="single-challenge-card ">
+                                    <div className="challenge_text">
+                                        <span className="chanllenge_heading">Challenge</span>
+                                        <span className="chanllenge_des">
+                                            Time-consuming processes to synchronize each delivery app with the POS system
+                                        </span>
+                                    </div>
+                                    <div className="challenge_text_hover">
+                                        <span className="chanllenge_heading">Solution</span>
+                                        <span className="chanllenge_des">
+                                            solution text goes here.solution text goes here.
+                                        </span>
+                                    </div>
+                                    <div className="clock-img" >
+                                        <img src="./clock.png" alt="clock" />
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <div className="single-challenge-card ">
+                                    <div className="challenge_text">
+                                        <span className="chanllenge_heading">Challenge</span>
+                                        <span className="chanllenge_des">
+                                            Complexity on applying discounts and promotions across different brands
+                                        </span>
+                                    </div>
+                                    <div className="challenge_text_hover">
+                                        <span className="chanllenge_heading">Solution</span>
+                                        <span className="chanllenge_des">
+                                            solution text goes here.solution text goes here.
+                                        </span>
+                                    </div>
+                                    <div className="discount_tag-img" >
+                                        <img src="./discount_tag.png" alt="discount_tag" />
+                                    </div>
+                                </div>
+                                <div className="single-challenge-card ">
+                                    <div className="challenge_text">
+                                        <span className="chanllenge_heading">Challenge</span>
+                                        <span className="chanllenge_des">
+                                            Customer complaints about order rejections due to item unavailability
+                                        </span>
+                                    </div>
+                                    <div className="challenge_text_hover">
+                                        <span className="chanllenge_heading">Solution</span>
+                                        <span className="chanllenge_des">
+                                            solution text goes here.solution text goes here.
+                                        </span>
+                                    </div>
+                                    <div className="caution-img" >
+                                        <img src="./caution.png" alt="caution" />
+                                    </div>
                                 </div>
 
                             </div>
-                            <div className="single-challenge-card">
-                                <div className="challenge_text">
-                                    <span className="chanllenge_heading">Challenge</span>
-                                    <span className="chanllenge_des">
-                                        Complexity on applying discounts and promotions across different brands
-                                    </span>
+                            <div>
+                                <div className="single-challenge-card ">
+                                    <div className="challenge_text">
+                                        <span className="chanllenge_heading">Challenge</span>
+                                        <span className="chanllenge_des">
+                                            Inability to track order errors and losses
+                                        </span>
+                                    </div>
+                                    <div className="challenge_text_hover">
+                                        <span className="chanllenge_heading">Solution</span>
+                                        <span className="chanllenge_des">
+                                            solution text goes here.solution text goes here.
+                                        </span>
+                                    </div>
+                                    <div className="delivery_van-img" >
+                                        <img src="./delivery_van.png" alt="delivery_van" />
+                                    </div>
                                 </div>
-                                <div className="discount_tag-img" >
-                                    <img src="./discount_tag.png" alt="discount_tag" />
-                                </div>
-                            </div>
-                            <div className="single-challenge-card">
-                                <div className="challenge_text">
-                                    <span className="chanllenge_heading">Challenge</span>
-                                    <span className="chanllenge_des">
-                                        Inability to track order errors and losses
-                                    </span>
-                                </div>
-                                <div className="delivery_van-img" >
-                                    <img src="./delivery_van.png" alt="delivery_van" />
-                                </div>
-                            </div>
-                            <div className="single-challenge-card">
-                                <div className="challenge_text">
-                                    <span className="chanllenge_heading">Challenge</span>
-                                    <span className="chanllenge_des">
-                                        Time-consuming processes to synchronize each delivery app with the POS system
-                                    </span>
-                                </div>
-                                <div className="clock-img" >
-                                    <img src="./clock.png" alt="clock" />
-                                </div>
-                            </div>
-                            <div className="single-challenge-card">
-                                <div className="challenge_text">
-                                    <span className="chanllenge_heading">Challenge</span>
-                                    <span className="chanllenge_des">
-                                        Customer complaints about order rejections due to item unavailability
-                                    </span>
-                                </div>
-                                <div className="caution-img" >
-                                    <img src="./caution.png" alt="caution" />
-                                </div>
-                            </div>
-                            <div className="single-challenge-card">
-                                <div className="challenge_text">
-                                    <span className="chanllenge_heading">Challenge</span>
-                                    <span className="chanllenge_des">
-                                        Legacy method of extracting reports and performing validations across multiple delivery apps
-                                    </span>
-                                </div>
-                                <div className="challange-img" >
-                                    <img src="./challange.png" alt="challange" />
+
+
+                                <div className="single-challenge-card ">
+                                    <div className="challenge_text">
+                                        <span className="chanllenge_heading">Challenge</span>
+                                        <span className="chanllenge_des">
+                                            Legacy method of extracting reports and performing validations across multiple delivery apps
+                                        </span>
+                                    </div>
+                                    <div className="challenge_text_hover">
+                                        <span className="chanllenge_heading">Solution</span>
+                                        <span className="chanllenge_des">
+                                            solution text goes here.solution text goes here.
+                                        </span>
+                                    </div>
+                                    <div className="challange-img" >
+                                        <img src="./challange.png" alt="challange" />
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -287,12 +347,14 @@ const Home = () => {
                 <div className="core-focus">
                     <div className="section-1">
                         <div className="section-1-upper">
-                            <div className="witness_the_efficiency-title">
+                            {/* <div className="witness_the_efficiency-title">
                                 <span>overcome your challenges</span>
-                            </div>
+                            </div> */}
+                            <TitleAndDescriptionForSection icon={true} title={"witness the efficiency"} description={""} />
                             <div>
-                                <span className="focus-text">our core <span className="focus-text" style={{ color: "#04A248" }}>focus</span></span>
+                                <span className="focus-text">our core focus</span>
                             </div>
+                            {/* <TitleAndDescriptionForSection icon={true} title={"overcome your challenges"} description={"our core focus"}/> */}
                             <div className="focus-dec">
                                 <span>Empowering Food & Beverage and Retail Businesses of All Sizes </span>
                             </div>
@@ -310,15 +372,16 @@ const Home = () => {
 
                     <div className="find-your-plan-inner">
                         <div className="text-section-find-plan">
-                            <div className="witness_the_efficiency-title-section">
+                            {/* <div className="witness_the_efficiency-title-section">
                                 <div className="witness_the_efficiency-title">
                                     <span>Witness the Efficiency</span>
                                 </div>
                                 <div className="witness_the_efficiency-text1">
-                                    <span>find your <span style={{ color: "rgba(5, 211, 93, 1)" }}>ideal </span>plan</span>
+                                    <span>find your ideal plan</span>
                                 </div>
 
-                            </div>
+                            </div> */}
+                            <TitleAndDescriptionForSection icon={true} title={"witness the efficiency"} description={"find your ideal plan"} />
 
                         </div>
                         <div className="find-your-plan-section">
@@ -495,17 +558,13 @@ const Home = () => {
                         <div className="blog-intro-content">
                             <div className="text-section-find-plan">
                                 <div className="witness_the_efficiency-title-section">
-                                    <div className="witness_the_efficiency-title">
-                                        <span>stay informed</span>
-                                    </div>
-                                    <div className="witness_the_efficiency-text1">
-                                        <span>lyncc <span style={{ color: "rgba(5, 211, 93, 1)" }}>blog </span></span>
-                                    </div>
+                                    <TitleAndDescriptionForSection icon={false} title={"stay informed"} description={"lyncc blog"} />
                                     <div className="more-lines-blog">
                                         <span>Stay ahead with our blog, offering insights and tips on industry trends.
                                             From optimizing operations to in-depth analytics exploration.</span>
                                     </div>
                                 </div>
+
                             </div>
                         </div>
                     </div>
@@ -589,14 +648,15 @@ const Home = () => {
             <div className="learn-from-industory">
                 <div className="blog-intro-content">
                     <div className="text-section-find-plan">
-                        <div className="witness_the_efficiency-title-section">
+                        <TitleAndDescriptionForSection icon={true} title={"join our events"} description={"learn from industory experts"} />
+                        {/* <div className="witness_the_efficiency-title-section">
                             <div className="witness_the_efficiency-title">
                                 <span>join our events</span>
                             </div>
                             <div className="witness_the_efficiency-text1">
                                 <span>learn from industory experts </span>
                             </div>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
                 <div className="industory-section-main">
@@ -639,14 +699,15 @@ const Home = () => {
             <Container>
                 <div className="client-share-exp">
                     <div className="client-share-exp-text">
-                        <div className="witness_the_efficiency-title-section">
+                        <TitleAndDescriptionForSection icon={false} title={"satisfied clients share their experience"} description={"hear from our customers"} />
+                        {/* <div className="witness_the_efficiency-title-section">
                             <div className="witness_the_efficiency-title">
                                 <span>hear from our customers</span>
                             </div>
                             <div className="witness_the_efficiency-text1">
                                 <span>Satisfied Clients Share Their Experience</span>
                             </div>
-                        </div>
+                        </div> */}
                     </div>
                     <div className="client-share-exp-content">
                         <div className="client-img">
@@ -679,7 +740,7 @@ const Home = () => {
                         </div>
                         <div className="transform-business-content">
                             <div>
-                                <p className="transform-business-content-para-1">Ready to Transform Your Business?</p>
+                                <p className="transform-business-content-para-1">Ready to <span className="text-platform">Transform</span>  Your Business?</p>
                                 <p className="transform-business-content-para-2">Take the next step towards transforming your business with Lynnc. Contact us today to discuss your organization's specific needs and requirements</p>
                             </div>
                             <div>
