@@ -15,28 +15,35 @@ export default function Footer() {
         <div className="footer-overlay">
           <Container>
             <div className="footer-main-centent">
-              <div className="logo-section-footer">
-                <Logo />
-                <div className="social-icons">
-                  <div className="social-icon">
-                    <img src="./linkedin.png" alt="linkedin" />
+              <div className="wrapper-logo-social">
+                <div className="logo-section-footer">
+                  <div className="logo-in-footer">
+                  <Logo />
                   </div>
-                  <div className="social-icon">
-                    <img src="./insta.png" alt="linkedin" />
-                  </div>
-                  <div className="social-icon">
-                    <img src="./twitter.png" alt="linkedin" />
-                  </div>
-                  <div className="social-icon">
-                    <img src="./tiktok.png" alt="linkedin" />
+                 
+                  <div className="social-icons">
+                    <div className="social-icon">
+                      <img src="./linkedin.png" alt="linkedin" />
+                    </div>
+                    <div className="social-icon">
+                      <img src="./insta.png" alt="linkedin" />
+                    </div>
+                    <div className="social-icon">
+                      <img src="./twitter.png" alt="linkedin" />
+                    </div>
+                    <div className="social-icon">
+                      <img src="./tiktok.png" alt="linkedin" />
+                    </div>
                   </div>
                 </div>
               </div>
               <div className="footer-price-section">
                 <p className="footer-start-first-style">Solutions</p>
+               
                 <p className="footer-bottom-words-style">Order Management</p>
                 <p className="footer-bottom-words-style">Menu Engineering</p>
                 <p className="footer-bottom-words-style">Analytics Dashboard</p>
+                
               </div>
               <div className="footer-price-section">
                 <p className="footer-start-first-style">Resources</p>
@@ -54,14 +61,14 @@ export default function Footer() {
               </div>
               <div className="footer-price-section">
                 <p className="footer-start-first-style">Pricing</p>
-                <div className="footer-price-section">
-                <p className="footer-start-first-style">Contact Page</p>
-                <p className="footer-bottom-words-style">FAQ</p>
-                <p className="footer-bottom-words-style">Careers</p>
-              </div>
+                <div className="sub-footer-price-section">
+                  <p className="footer-start-first-style">Contact Page</p>
+                  <p className="footer-bottom-words-style">FAQ</p>
+                  <p className="footer-bottom-words-style">Careers</p>
+                </div>
               </div>
             </div>
-            <hr className="hr-line"/>
+            <hr className="hr-line" />
             <div className="footer-copy-rights">
               <div className="copy-rights-text">
                 <p>Copyright © 2024 Lynnc. All rights reserved.</p>

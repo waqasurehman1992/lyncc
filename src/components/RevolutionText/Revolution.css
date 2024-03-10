@@ -43,4 +43,25 @@
 
 .revo-special {
     color: #05D35D;
+    font-style: italic;
+    text-transform: capitalize;
+    /* animation-name: HeaderTextAnim;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-out; */
+    
 }
+
+/* @keyframes HeaderTextAnim {
+    0% {
+        transform:translate(0px, 1px);
+    }
+
+    50% {
+        transform:translate(0px, 21px);
+    }
+
+    100% {
+        transform:translate(0px, 1px);
+    }
+} */

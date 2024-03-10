@@ -19,6 +19,15 @@ const Home = () => {
         <>
             <div style={{ marginBottom: "100px" }}>
                 <Header />
+                <div className="client-list">
+                    <div className="exp-imgs">
+                        <img src="./exp_1.png" alt="client-list" />
+                        <img src="./exp_2.png" alt="client-list" />
+                        <img src="./exp_3.png" alt="client-list" />
+                        <img src="./exp_4.png" alt="client-list" />
+                    </div>
+
+                </div>
             </div>
 
             <Container>
@@ -46,7 +55,7 @@ const Home = () => {
                         </div>
                         <div>
                             <button className="download-lyncc-prof">
-                                <svg width="14" height="15" viewBox="0 0 14 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                {/* <svg width="14" height="15" viewBox="0 0 14 15" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <g clip-path="url(#clip0_4053_3219)">
                                         <path d="M2.40629 7.68601L3.24296 6.8344L6.58965 10.1811L6.58965 2.90503L7.7849 2.90503L7.7849 10.1811L11.1316 6.8344L11.9683 7.68601L7.18728 12.467L2.40629 7.68601Z" fill="#C2C8B6" />
                                     </g>
@@ -55,15 +64,21 @@ const Home = () => {
                                             <rect width="9.56197" height="9.56197" fill="white" transform="translate(0.425781 7.68604) rotate(-45)" />
                                         </clipPath>
                                     </defs>
-                                </svg>
+                                </svg> */}
+                                <div className="profile-download-arrow">
+                                    <img src="./arrow-up.png" alt="arrow" height={"100%"} width={"100%"} />
 
-                                Download Lyncc Profile
+                                </div>
+                                <p>Download Lyncc Profile</p>
                             </button>
                         </div>
 
                     </div>
                     <div className="lyncc-platform-img">
-                        <img src="./5.jpg" alt="img" />
+                        {/* <img src="./5.jpg" alt="img" /> */}
+                        <video autoPlay muted loop width={"100%"}>
+                            <source src="./vid_2.mp4"></source>
+                        </video>
                     </div>
                 </div>
                 <div className="tell-story-section">
@@ -343,33 +358,37 @@ const Home = () => {
                     </div>
                 </div>
             </div>
-            <Container>
-                <div className="core-focus">
-                    <div className="section-1">
-                        <div className="section-1-upper">
-                            {/* <div className="witness_the_efficiency-title">
+            <div className="core-focus-wrapper__">
+                <Container>
+                    <div className="core-focus">
+                        <div className="section-1">
+                            <div className="section-1-upper">
+                                {/* <div className="witness_the_efficiency-title">
                                 <span>overcome your challenges</span>
                             </div> */}
-                            <TitleAndDescriptionForSection icon={true} title={"witness the efficiency"} description={""} />
-                            <div>
-                                <span className="focus-text">our core focus</span>
+                                <TitleAndDescriptionForSection icon={true} title={"witness the efficiency"} description={""} />
+                                <div>
+                                    <span className="focus-text">our core focus</span>
+                                </div>
+                                {/* <TitleAndDescriptionForSection icon={true} title={"overcome your challenges"} description={"our core focus"}/> */}
+                                <div className="focus-dec">
+                                    <span>Empowering Food & Beverage and Retail Businesses of All Sizes </span>
+                                </div>
                             </div>
-                            {/* <TitleAndDescriptionForSection icon={true} title={"overcome your challenges"} description={"our core focus"}/> */}
-                            <div className="focus-dec">
-                                <span>Empowering Food & Beverage and Retail Businesses of All Sizes </span>
-                            </div>
+
                         </div>
+                        <div className="section-2">
+                            <img src="./core_section_1.png" alt="fb-business" />
+                        </div>
+                        <div className="section-3">
+                            <img src="./core_section_2.png" alt="retail-business" />
+                        </div>
+                    </div>
 
-                    </div>
-                    <div className="section-2">
-                        <img src="./fb_business.png" alt="fb-business" />
-                    </div>
-                    <div className="section-3">
-                        <img src="./retail-business.png" alt="retail-business" />
-                    </div>
-                </div>
+                </Container>
+            </div>
+            <Container>
                 <div className="find-your-plan-outer">
-
                     <div className="find-your-plan-inner">
                         <div className="text-section-find-plan">
                             {/* <div className="witness_the_efficiency-title-section">
@@ -554,76 +573,71 @@ const Home = () => {
                     </div>
                 </div>
                 <div className="lyncc-blogs-outer">
-                    <div className="lyncc-blog-intro">
-                        <div className="blog-intro-content">
-                            <div className="text-section-find-plan">
-                                <div className="witness_the_efficiency-title-section">
-                                    <TitleAndDescriptionForSection icon={false} title={"stay informed"} description={"lyncc blog"} />
-                                    <div className="more-lines-blog">
-                                        <span>Stay ahead with our blog, offering insights and tips on industry trends.
-                                            From optimizing operations to in-depth analytics exploration.</span>
-                                    </div>
-                                </div>
 
-                            </div>
+                    <div className="text-section-find-plan">
+                        <div className="witness_the_efficiency-title-section">
+                            <TitleAndDescriptionForSection icon={false} title={"stay informed"} description={"lyncc blog"} />
                         </div>
                     </div>
                     <div className="blogs-flexes">
-                        <div className="blog-card">
+                        <div className="blog-card blog-card-small">
                             <div className="blog-content-text">
                                 <div className="blog-content-inner">
                                     <div className="blog-main-text">
                                         <span>The Future of Order Management in Food & Beverage and Retail</span>
                                     </div>
                                     <div className="blog-other-info">
-                                        <div className="blog-posting-date">
-                                            <span>2 jan 2024</span>
-                                        </div>
                                         <div className="blog-post-read-more">
                                             <span>read more</span>
                                         </div>
+                                        <div className="blog-posting-date">
+                                            <span>2 jan 2024</span>
+                                        </div>
+
                                     </div>
                                 </div>
                             </div>
-                            <img src="./blog_1.png" alt="blog-1" />
+                            <img src="./blog_4.png" alt="blog-1" />
                         </div>
-                        <div className="blog-card">
+                        <div className="blog-card blog-card-big">
                             <div className="blog-content-text">
                                 <div className="blog-content-inner">
                                     <div className="blog-main-text">
                                         <span>The Future of Order Management in Food & Beverage and Retail</span>
                                     </div>
                                     <div className="blog-other-info">
-                                        <div className="blog-posting-date">
-                                            <span>2 jan 2024</span>
-                                        </div>
                                         <div className="blog-post-read-more">
                                             <span>read more</span>
                                         </div>
+                                        <div className="blog-posting-date">
+                                            <span>2 jan 2024</span>
+                                        </div>
+
                                     </div>
                                 </div>
                             </div>
                             <img src="./blog_2.png" alt="blog-1" />
                         </div>
-                        <div className="blog-card">
+                        <div className="blog-card blog-card-small">
                             <div className="blog-content-text">
                                 <div className="blog-content-inner">
                                     <div className="blog-main-text">
                                         <span>The Future of Order Management in Food & Beverage and Retail</span>
                                     </div>
                                     <div className="blog-other-info">
-                                        <div className="blog-posting-date">
-                                            <span>2 jan 2024</span>
-                                        </div>
                                         <div className="blog-post-read-more">
                                             <span>read more</span>
                                         </div>
+                                        <div className="blog-posting-date">
+                                            <span>2 jan 2024</span>
+                                        </div>
+
                                     </div>
                                 </div>
                             </div>
                             <img src="./blog_3.png" alt="blog-1" />
                         </div>
-                        <div className="blog-card">
+                        {/* <div className="blog-card">
                             <div className="blog-content-text">
                                 <div className="blog-content-inner">
                                     <div className="blog-main-text">
@@ -640,7 +654,7 @@ const Home = () => {
                                 </div>
                             </div>
                             <img src="./blog_4.png" alt="blog-1" />
-                        </div>
+                        </div> */}
                     </div>
                 </div>
 
@@ -696,11 +710,11 @@ const Home = () => {
                     <img src="./industory.png" alt="industory" />
                 </div>
             </div>
-            <Container>
-                <div className="client-share-exp">
-                    <div className="client-share-exp-text">
-                        <TitleAndDescriptionForSection icon={false} title={"satisfied clients share their experience"} description={"hear from our customers"} />
-                        {/* <div className="witness_the_efficiency-title-section">
+
+            <div className="client-share-exp">
+                <div className="client-share-exp-text">
+                    <TitleAndDescriptionForSection icon={false} title={"satisfied clients share their experience"} description={"hear from our customers"} />
+                    {/* <div className="witness_the_efficiency-title-section">
                             <div className="witness_the_efficiency-title">
                                 <span>hear from our customers</span>
                             </div>
@@ -708,29 +722,62 @@ const Home = () => {
                                 <span>Satisfied Clients Share Their Experience</span>
                             </div>
                         </div> */}
-                    </div>
-                    <div className="client-share-exp-content">
+                </div>
+                <div className="client-share-exp-slider">
+                    {/* <div className="client-share-exp-content client-exp-sides-left">
+                            <div className="client-img">
+                                <img src="./client.png" alt="client-img" />
+                            </div>
+                            <div className="client-centent">
+                                <p className="client-centent-detail">Iusto quia perspiciatis inventore tempora. Velit vitae tempora et laborum id soluta est ut laboriosam. Eveniet possimus autem ratione aliquid in sunt tempora. Amet rerum suscipit distinctio voluptas. In quis voluptas necessitatibus et aut dolor ut quod. Sapiente et adipisci tenetur voluptatibus qui.</p>
+                                <div>
+                                    <p className="comp-name">Daisy Welch</p>
+                                    <p className="client-occ">Chief Branding Producer</p>
+                                </div>
+                            </div>
+                        </div> */}
+                    <div className="client-share-exp-content client-exp-middle">
                         <div className="client-img">
                             <img src="./client.png" alt="client-img" />
                         </div>
                         <div className="client-centent">
-                            <p className="client-centent-detail">Iusto quia perspiciatis inventore tempora. Velit vitae tempora et laborum id soluta est ut laboriosam. Eveniet possimus autem ratione aliquid in sunt tempora. Amet rerum suscipit distinctio voluptas. In quis voluptas necessitatibus et aut dolor ut quod. Sapiente et adipisci tenetur voluptatibus qui.</p>
-                            <div>
-                                <p className="comp-name">Daisy Welch</p>
-                                <p className="client-occ">Chief Branding Producer</p>
+                            <div className="_comma_">
+                                <img src="./coma_letter.png" alt="coma_letter.png" />
                             </div>
-                        </div>
-                    </div>
-                    <div className="client-list">
-                        <div className="exp-imgs">
-                            <img src="./exp_1.png" alt="client-list" />
-                            <img src="./exp_2.png" alt="client-list" />
-                            <img src="./exp_3.png" alt="client-list" />
-                            <img src="./exp_4.png" alt="client-list" />
-                        </div>
+                            <div>
+                                <p className="client-centent-detail">Iusto quia perspiciatis inventore tempora. Velit vitae tempora et laborum id soluta est ut laboriosam. Eveniet possimus autem ratione aliquid in sunt tempora. Amet rerum suscipit distinctio voluptas. In quis voluptas necessitatibus et aut dolor ut quod. Sapiente et adipisci tenetur voluptatibus qui.</p>
+                                <div>
+                                    <p className="comp-name">Daisy Welch</p>
+                                    <p className="client-occ">Chief Branding Producer</p>
+                                </div>
+                            </div>
 
+                        </div>
                     </div>
+                    {/* <div className="client-share-exp-content client-exp-right">
+                            <div className="client-img">
+                                <img src="./client.png" alt="client-img" />
+                            </div>
+                            <div className="client-centent">
+                                <p className="client-centent-detail">Iusto quia perspiciatis inventore tempora. Velit vitae tempora et laborum id soluta est ut laboriosam. Eveniet possimus autem ratione aliquid in sunt tempora. Amet rerum suscipit distinctio voluptas. In quis voluptas necessitatibus et aut dolor ut quod. Sapiente et adipisci tenetur voluptatibus qui.</p>
+                                <div>
+                                    <p className="comp-name">Daisy Welch</p>
+                                    <p className="client-occ">Chief Branding Producer</p>
+                                </div>
+                            </div>
+                        </div> */}
                 </div>
+                <div className="client-list">
+                    <div className="exp-imgs">
+                        <img src="./exp_1.png" alt="client-list" />
+                        <img src="./exp_2.png" alt="client-list" />
+                        <img src="./exp_3.png" alt="client-list" />
+                        <img src="./exp_4.png" alt="client-list" />
+                    </div>
+
+                </div>
+            </div>
+            <Container>
                 <div className="ready-transform-business">
                     <img src="./laptop_with_boxes.png" alt="laptop_with_boxes" width={"100%"} height={"100%"} />
                     <div className="overlay-content-transform-business">
