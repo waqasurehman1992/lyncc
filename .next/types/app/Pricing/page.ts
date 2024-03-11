@@ -1,4 +1,4 @@
-// File: F:\Nextjs\lyncc\src\app\Pricing\page.js
+// File: F:\Nextjs\Git_Shared_depos\lyncc\lyncc\src\app\Pricing\page.js
 import * as entry from '../../../../src/app/Pricing/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

@@ -1,4 +1,4 @@
-// File: F:\Nextjs\lyncc\src\app\layout.js
+// File: F:\Nextjs\Git_Shared_depos\lyncc\lyncc\src\app\layout.js
 import * as entry from '../../../src/app/layout.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

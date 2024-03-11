@@ -13,7 +13,6 @@ export default function Footer() {
       <div className="footer-main-outer">
 
         <div className="footer-overlay">
-          {/* this is comment */}
           <Container>
             <div className="footer-main-centent">
               <div className="wrapper-logo-social">

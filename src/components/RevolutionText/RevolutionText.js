@@ -12,8 +12,9 @@ export default function RevolutionText() {
     const chnageWordAuto = () =>{
         let count = 0;
         setInterval(() => {
-            debugger
-            setChangeWord(changeWordList[count]);
+            
+            setChangeWord(changeWordList[count]); 
+            //this is comment
             count = count+1;
             if(count > 2){
                 count = 0;
