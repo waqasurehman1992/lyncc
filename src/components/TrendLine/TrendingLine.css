@@ -7,8 +7,10 @@
 }
 
 .outer-basic {
-
-    background-color: rgba(0, 0, 0, 0.37);
+    background-image: url("../../../public/trending_pic_left.png");
+    background-position: right;
+    background-repeat: no-repeat;
+    /* background-color: rgba(0, 0, 0, 0.37); */
     gap: 10px;
     position: relative;
     right: 0;
@@ -21,7 +23,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    left: -20px;
+    left: 0;
     top: 18px;
     position: absolute;
     gap: 20px;

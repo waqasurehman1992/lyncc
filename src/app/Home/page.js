@@ -13,8 +13,13 @@ import Slider from 'rc-slider';
 import 'rc-slider/assets/index.css';
 import Footer from "../../components/Footer/footer"
 import TitleAndDescriptionForSection from "../../components/TextTitleForHomePage/TittleHomePage"
+import { useState } from "react";
 
 const Home = () => {
+    const [currencyType, setCurrencyType] = useState("SAR")
+    const selectCurrencyType = (type) => {
+        setCurrencyType(type)
+    }
     return (
         <>
             <div style={{ marginBottom: "100px" }}>
@@ -55,21 +60,20 @@ const Home = () => {
                         </div>
                         <div>
                             <button className="download-lyncc-prof">
-                                {/* <svg width="14" height="15" viewBox="0 0 14 15" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <g clip-path="url(#clip0_4053_3219)">
-                                        <path d="M2.40629 7.68601L3.24296 6.8344L6.58965 10.1811L6.58965 2.90503L7.7849 2.90503L7.7849 10.1811L11.1316 6.8344L11.9683 7.68601L7.18728 12.467L2.40629 7.68601Z" fill="#C2C8B6" />
-                                    </g>
-                                    <defs>
-                                        <clipPath id="clip0_4053_3219">
-                                            <rect width="9.56197" height="9.56197" fill="white" transform="translate(0.425781 7.68604) rotate(-45)" />
-                                        </clipPath>
-                                    </defs>
-                                </svg> */}
+                                <div className="slide-download-lyncc-prof">
+                                    <div className="profile-download-arrow">
+                                        <img src="./arrow-up.png" alt="arrow" height={"100%"} width={"100%"} />
+
+                                    </div>
+                                    <p>Download Lyncc Profile</p>
+                                </div>
                                 <div className="profile-download-arrow">
                                     <img src="./arrow-up.png" alt="arrow" height={"100%"} width={"100%"} />
 
                                 </div>
                                 <p>Download Lyncc Profile</p>
+
+
                             </button>
                         </div>
 
@@ -84,15 +88,15 @@ const Home = () => {
                 <div className="tell-story-section">
                     <div className="tell-story-content">
                         <div className="lyncc-tell-story-text">
-                            <p>LYNNC® numbers tell the Story!</p>
+                            <p><span className="lyncc-alone">LYNNC®</span> numbers tell the Story!</p>
                         </div>
                         <div className="story-numbers">
                             <div className="story-item">
                                 <div>
                                     <span className="story-item-text"><span className="text-platform">+</span>500k</span>
                                 </div>
-                                <div style={{ textAlign: "center" }}>
-                                    <span>
+                                <div style={{ textAlign: "center", fontSize: "30px", fontWeight: "400" }}>
+                                    <span style={{ color: "white" }}>
                                         orders
                                     </span>
                                 </div>
@@ -101,8 +105,8 @@ const Home = () => {
                                 <div>
                                     <span className="story-item-text"><span className="text-platform">+</span>750</span>
                                 </div>
-                                <div style={{ textAlign: "center" }}>
-                                    <span>
+                                <div style={{ textAlign: "center", fontSize: "30px", fontWeight: "400" }}>
+                                    <span style={{ color: "white" }}>
                                         location
                                     </span>
                                 </div>
@@ -111,8 +115,8 @@ const Home = () => {
                                 <div>
                                     <span className="story-item-text"><span className="text-platform">+</span>100</span>
                                 </div>
-                                <div style={{ textAlign: "center" }}>
-                                    <span>
+                                <div style={{ textAlign: "center", fontSize: "30px", fontWeight: "400" }}>
+                                    <span style={{ color: "white" }}>
                                         brands
                                     </span>
                                 </div>
@@ -121,19 +125,22 @@ const Home = () => {
                                 <div>
                                     <span className="story-item-text"><span className="text-platform">+</span>50</span>
                                 </div>
-                                <div style={{ textAlign: "center" }}>
-                                    <span>
+                                <div style={{ textAlign: "center", fontSize: "30px", fontWeight: "400" }}>
+                                    <span style={{ color: "white" }}>
                                         integration
                                     </span>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div className="tell-story-img"></div>
+                    <video autoPlay muted loop width={"100%"}>
+                        <source src="./vid_1.mp4" />
+                    </video>
                 </div>
             </Container>
             <div className="partner-logos">
-                <div className="lyncc-logo">
+                <img src="./6.jpg" alt="parnter-logos" />
+                {/* <div className="lyncc-logo">
                     <svg width="131" height="19" viewBox="0 0 131 19" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M0 12.9452V0.00378418H3.6948V12.9452C3.6948 13.9476 4.51415 14.7674 5.51592 14.7674H25.8389V18.4924H5.51592C2.47969 18.4924 0 15.9833 0 12.9452Z" fill="#05D35D" />
                         <path d="M32.0938 10.0644V18.4888H28.3712V10.0644L17.126 0.0032959H22.6697L30.217 6.76327L37.7921 0.0032959H43.3359L32.0907 10.0644H32.0938Z" fill="#05D35D" />
@@ -166,11 +173,11 @@ const Home = () => {
                 </div>
                 <div className="talabat">
                     <img src="./talabat.png" alt="talabat.png" />
-                </div>
+                </div> */}
 
             </div>
             <PowerfulSol />
-            <Container style={{ marginBottom: "100px" }}>
+            <Container>
                 {/* <div className="witness-efficiency">
                 <TitleAndDescriptionForSection title={"witness the efficiency"} description={"addressing your business challenges"} />
                     <div className="witness_the_efficiency-title-section">
@@ -195,8 +202,8 @@ const Home = () => {
                     <div className="business-challenge">
                         <TitleAndDescriptionForSection icon={true} title={"overcome your challenges"} description={"addressing your business challenges"} />
                         <div className="challenge-cards">
-                            <div>
-                                <div className="single-challenge-card ">
+                            <div className="sec-1">
+                                <div className="single-challenge-card">
                                     <div className="challenge_text">
                                         <span className="chanllenge_heading">Challenge</span>
                                         <span className="chanllenge_des">
@@ -208,14 +215,17 @@ const Home = () => {
                                         <span className="chanllenge_des">
                                             solution text goes here.solution text goes here.
                                         </span>
-                                    </div>
-                                    <div className="keyboard-img" >
-                                        <img src="./keyboard.png" alt="keyboard" />
+                                        <div className="keyboard-img" >
+                                            <img src="./keyboard.png" alt="keyboard" />
+                                        </div>
                                     </div>
 
+                                    <div className="keyboard-img" >
+                                            <img src="./keyboard.png" alt="keyboard" />
+                                        </div>
 
                                 </div>
-                                <div className="single-challenge-card ">
+                                <div className="single-challenge-card">
                                     <div className="challenge_text">
                                         <span className="chanllenge_heading">Challenge</span>
                                         <span className="chanllenge_des">
@@ -312,17 +322,20 @@ const Home = () => {
                     </div>
 
                 </div>
-                <div className="solve-your-challenge-section">
+                {/* <div className="solve-your-challenge-section">
                     <button className="solve-your-challenge-button">
                         <span>solve your challenge</span>
                     </button>
-                </div>
+                </div> */}
             </Container>
             <div className="integration-section">
                 <div className="intgration-img">
                     <div className="witness_the_efficiency-title-section">
-                        <div className="witness_the_efficiency-title">
-                            <span>overcome your challenges</span>
+                        <div className="integration-title">
+                            <div className="integ-arrow">
+                                <img src="./arrow_meet_us_btn.png" alt="arrow_meet_us_btn" />
+                            </div>
+                            <p>overcome your challenges</p>
                         </div>
                         <div className="witness_the_efficiency-text1">
                             <span style={{ color: "white" }}>Integrate Your Business Seamlessly</span>
@@ -352,11 +365,18 @@ const Home = () => {
                             </button>
                         </div>
                         <div className="integration-submit">
-                            <button className="submit">submit</button>
+                            <button className="submit">
+                                <div className="slide-integ-submit">
+
+                                    <p className="int-submit-text">submit</p>
+                                </div>
+                                <p className="int-submit-text">submit</p>
+                            </button>
                         </div>
 
                     </div>
                 </div>
+                <img src="./integration_img.png" alt="integration_img" />
             </div>
             <div className="core-focus-wrapper__">
                 <Container>
@@ -469,15 +489,13 @@ const Home = () => {
                                             <Form.Control aria-label="Text input with dropdown button" />
                                             <SplitButton
                                                 variant="outline-secondary"
-                                                title="Action"
+                                                title={currencyType}
                                                 id="segmented-button-dropdown-2"
                                                 alignRight
                                             >
-                                                <Dropdown.Item href="#">Action</Dropdown.Item>
-                                                <Dropdown.Item href="#">Another action</Dropdown.Item>
-                                                <Dropdown.Item href="#">Something else here</Dropdown.Item>
-                                                <Dropdown.Divider />
-                                                <Dropdown.Item href="#">Separated link</Dropdown.Item>
+                                                <Dropdown.Item href="#" onClick={() => selectCurrencyType("SAR")}>SAR</Dropdown.Item>
+                                                <Dropdown.Item href="#" onClick={() => selectCurrencyType("YEN")}>YEN</Dropdown.Item>
+                                                <Dropdown.Item href="#" onClick={() => selectCurrencyType("DOLLAR")}>DOLLAR</Dropdown.Item>
                                             </SplitButton>
                                         </InputGroup>
                                     </div>
@@ -568,6 +586,15 @@ const Home = () => {
                                     </div>
 
                                 </div>
+                                <div style={{ width: "100%", height: "100%", display: "flex", justifyContent: "center" }} className="integration-submit">
+                                    <button className="submit">
+                                        <div className="slide-integ-submit">
+
+                                            <p className="int-submit-text">submit</p>
+                                        </div>
+                                        <p className="int-submit-text">submit</p>
+                                    </button>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -582,6 +609,11 @@ const Home = () => {
                     <div className="blogs-flexes">
                         <div className="blog-card blog-card-small">
                             <div className="blog-content-text">
+                                <div className="event-wrapper">
+                                    <div className="event-blog">
+                                        <p>event</p>
+                                    </div>
+                                </div>
                                 <div className="blog-content-inner">
                                     <div className="blog-main-text">
                                         <span>The Future of Order Management in Food & Beverage and Retail</span>
@@ -601,6 +633,11 @@ const Home = () => {
                         </div>
                         <div className="blog-card blog-card-big">
                             <div className="blog-content-text">
+                                <div className="event-wrapper">
+                                    <div className="event-blog">
+                                        <p>event</p>
+                                    </div>
+                                </div>
                                 <div className="blog-content-inner">
                                     <div className="blog-main-text">
                                         <span>The Future of Order Management in Food & Beverage and Retail</span>
@@ -620,6 +657,11 @@ const Home = () => {
                         </div>
                         <div className="blog-card blog-card-small">
                             <div className="blog-content-text">
+                                <div className="event-wrapper">
+                                    <div className="event-blog">
+                                        <p>event</p>
+                                    </div>
+                                </div>
                                 <div className="blog-content-inner">
                                     <div className="blog-main-text">
                                         <span>The Future of Order Management in Food & Beverage and Retail</span>
@@ -701,8 +743,14 @@ const Home = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div className="ind-content-2">
-                                <button>sign up now</button>
+                            <div className="ind-content-2 integration-submit">
+                                <button className="submit">
+                                    <div className="slide-integ-submit">
+
+                                        <p className="int-submit-text">sign up now</p>
+                                    </div>
+                                    <p className="int-submit-text">sign up now</p>
+                                </button>
                             </div>
                         </div>
 
@@ -791,7 +839,7 @@ const Home = () => {
                                 <p className="transform-business-content-para-2">Take the next step towards transforming your business with Lynnc. Contact us today to discuss your organization's specific needs and requirements</p>
                             </div>
                             <div>
-                                <button className="req-demo-btn">
+                                {/* <button className="req-demo-btn">
 
                                     <svg width="241" height="57" viewBox="0 0 241 57" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <rect width="241" height="57" rx="28.5" fill="#183F30" />
@@ -805,6 +853,22 @@ const Home = () => {
                                             </clipPath>
                                         </defs>
                                     </svg>
+                                </button> */}
+                                <button className="download-lyncc-prof">
+                                    <div className="slide-download-lyncc-prof">
+                                        {/* <div className="profile-download-arrow">
+                                            <img src="./arrow-up.png" alt="arrow" height={"100%"} width={"100%"} />
+
+                                        </div> */}
+                                        <p>Request a demo</p>
+                                    </div>
+                                    <div style={{transform:"rotate(270deg)"}} className="profile-download-arrow">
+                                        <img src="./arrow-up.png" alt="arrow" height={"100%"} width={"100%"} />
+
+                                    </div>
+                                    <p>Request a demo</p>
+
+
                                 </button>
                             </div>
                         </div>

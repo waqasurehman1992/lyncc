@@ -85,11 +85,11 @@
     object-fit: cover;
 
 }
-.sub-footer-price-section{
+.sub-footer-price-section{ 
     margin-top: 30px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: flex-start;
 }
 .hr-line{
     color: white;

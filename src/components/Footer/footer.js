@@ -62,7 +62,7 @@ export default function Footer() {
               <div className="footer-price-section">
                 <p className="footer-start-first-style">Pricing</p>
                 <div className="sub-footer-price-section">
-                  <p className="footer-start-first-style">Contact Page</p>
+                  <p style={{marginBottom:"10px"}} className="footer-start-first-style">Contact Page</p>
                   <p className="footer-bottom-words-style">FAQ</p>
                   <p className="footer-bottom-words-style">Careers</p>
                 </div>

@@ -45,7 +45,7 @@ export default function HomeMenu() {
                         </div>
                     </div>
                     <div className="language-dropdown">
-                        <span>العربية</span>
+                        <p style={{color:"white"}}>العربية</p>
                     </div>
                 </div>
             </div>

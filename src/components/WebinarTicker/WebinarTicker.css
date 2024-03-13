@@ -13,25 +13,25 @@
     height: 18px;
     left: 0px;
     top: 0px;
+}
 
+.remaining-time p{
     font-family: 'Ubuntu';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 18px;
     color: #05D35D;
-
-
 }
-.attend-webinar {
-    /* font-family: Ubuntu; */
+.attend-webinar p{
+    font-family: 'Ubuntu';
     font-size: 19px;
     font-weight: 500;
     line-height: 22px;
     letter-spacing: 0em;
     color: #FFFFFF;
-
 }
+
 .sign-up-btn {
     background: #05D35D;
     width: 102px;
@@ -42,7 +42,7 @@
     border-radius: 100px;
     outline: none;
     border: 1px solid #05D35D;
-
+    font-family: 'Ubuntu';
 }
 .cross-btn{
     color: #FFFFFF;

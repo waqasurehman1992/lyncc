@@ -1,14 +1,18 @@
 import { Container } from "react-bootstrap";
 import "./PowerSol.css";
+import TitleAndDescriptionForSection from "../TextTitleForHomePage/TittleHomePage"
 
 const PowerSol = () => {
     return (
 
         <div className="powerful-content-main">
             <Container>
-                <div className="powerful-content-main-heading">
+            <TitleAndDescriptionForSection icon={true} title={"LYNCC Solutions"} description={"Our Powerful Solutions"} />
+                {/* <div className="powerful-content-main-heading">
+                    
                     <span>Our Powerful Solutions</span>
-                </div>
+                    
+                </div> */}
                 <div className="main-outer">
                     <div className="powerful-content-main-description">
                         <div className="man-with-cap">

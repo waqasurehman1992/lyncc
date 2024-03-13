@@ -6,7 +6,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: aliceblue;
+    background-color: rgba(59, 96, 100, 0.05);
     margin-bottom: 100px;
     
 }
@@ -21,6 +21,7 @@
     font-weight: 700;
     font-size: 44px;
     text-align: center;
+    width: 100%;
 }
 .powerful-content-main-description{
     width: 100%;
@@ -56,12 +57,14 @@
     flex-direction: column;
 }
 .read-more-green{
+    background-color: transparent;
+    border: none;
+}
+.read-more-green span{
     text-decoration: underline;
     color: rgba(5, 211, 93, 1);
     font-weight: 400;
-    background-color: transparent;
-    border: none;
-
+   
 }
 .menu-engineering-text span{
     font-weight: 500;

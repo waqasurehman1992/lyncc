@@ -5,7 +5,7 @@ export default function GetStarted() {
   return (
 
     <button className="get-started">
-      <span>get started</span>
+      <p>get started</p>
       <div className="arrow">
         <div className="arrow-svg-icon"> 
           <svg width="13" height="12" viewBox="0 0 13 12" fill="none" xmlns="http://www.w3.org/2000/svg">

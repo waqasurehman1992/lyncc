@@ -1,620 +1,8 @@
-/*!********************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[12].use[3]!./src/components/WebinarTicker/WebinarTicker.css ***!
-  \********************************************************************************************************************************************************************************************************************************************************************************************/
-.pop-header { 
-    background: #183F30;
-    /* position: absolute; */
-    width: 100%;
-    height: 53px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    /* padding: 6px 103px 16px 96px; */
-}
-.remaining-time {
-    width: 290px;
-    height: 18px;
-    left: 0px;
-    top: 0px;
-
-    font-family: 'Ubuntu';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 18px;
-    color: #05D35D;
-
-
-}
-.attend-webinar {
-    /* font-family: Ubuntu; */
-    font-size: 19px;
-    font-weight: 500;
-    line-height: 22px;
-    letter-spacing: 0em;
-    color: #FFFFFF;
-
-}
-.sign-up-btn {
-    background: #05D35D;
-    width: 102px;
-    height: 32px;
-    /* padding: 8px 24px 8px 24px; */
-    color: #183F30;
-    border-radius: 100px;
-    outline: none;
-    border: 1px solid #05D35D;
-
-}
-.cross-btn{
-    color: #FFFFFF;
-    background-color: transparent;
-    border: none;
-    outline: none;
-}
-/*!**********************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[12].use[3]!./src/components/HomeMenu/homemenu.css ***!
-  \**********************************************************************************************************************************************************************************************************************************************************************************/
-.home-menu-outer {
-    width: 100%;
-    height: 50px;
-    margin-top: 20px;
-    /* position: absolute; */
-    display: flex;
-    justify-content: center;
-}
-
-.home-menu-inner {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 80%;
-}
-
-.main-menu-btns {
-    display: flex;
-    justify-content: flex-start;
-    gap: 20px;
-}
-
-.menu-item {
-    color: #F3FDFE;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 18px;
-    letter-spacing: 0em;
-    text-align: left;
-text-decoration: none;
-}
-
-.logo-lyncc {
-    font-size: 50px;
-    font-weight: 500;
-}
-
-.language-dropdown {
-    font-size: 16px;
-    font-weight: 700;
-    line-height: 18px;
-    letter-spacing: 0em;
-    color: #F3FDFE;
-
-}
-a{
-    text-decoration: none;
-  }
-/*!******************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[12].use[3]!./src/components/RevolutionText/Revolution.css ***!
-  \******************************************************************************************************************************************************************************************************************************************************************************************/
-.revolution-section {
-    width: 679px;
-    height: 212.65px;
-    top: 229.82px;
-    Left: 149px;
-    /* position: absolute; */
-    color: #F3FDFE;
-    display: flex;
-    flex-direction: column;
-}
-.revolution-outer{
-    display: flex;
-    width: 100%;
-    height: 400px;
-}
-.revolution-inner{
-    display: flex;
-    width: 100%;
-    height: 400px;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.revolution-section .p1 {
-    font-size: 50px;
-    font-weight: 500;
-    line-height: 75px;
-    letter-spacing: 0em;
-    text-align: left;
-    margin: 0;
-
-
-}
-
-.revolution-section .p2 {
-    font-size: 50px;
-    font-weight: 700;
-    line-height: 75px;
-    letter-spacing: 0em;
-    text-align: left;
-    margin: 0;
-}
-
-.revo-special {
-    color: #05D35D;
-    font-style: italic;
-    text-transform: capitalize;
-    /* animation-name: HeaderTextAnim;
-    animation-duration: 1.5s;
-    animation-iteration-count: infinite;
-    animation-timing-function: ease-out; */
-    
-}
-
-/* @keyframes HeaderTextAnim {
-    0% {
-        transform:translate(0px, 1px);
-    }
-
-    50% {
-        transform:translate(0px, 21px);
-    }
-
-    100% {
-        transform:translate(0px, 1px);
-    }
-} */
-/*!**************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[12].use[3]!./src/components/GetStarted/GetStarted.css ***!
-  \**************************************************************************************************************************************************************************************************************************************************************************************/
-.get-started {
-    background-color: #C2C8B6;
-    width: 231px;
-    height: 69px;
-    padding: 2.91px 2.3px 1.99px 30.59px;
-    border-radius: 279.69px;
-    gap: 11.65px;
-    text-transform: capitalize;
-    border: 1px solid #C2C8B6;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    color: #183F30;
-    font-size: 19px;
-    font-weight: 600;
-}
-.get-started:hover{
-    background-color: #183F30;
-    color: #C2C8B6;
-    width: 231px;
-    height: 69px;
-    padding: 2.91px 2.3px 1.99px 30.59px;
-    border-radius: 279.69px;
-    gap: 11.65px;
-    text-transform: capitalize;
-    border: 2px solid #C2C8B6;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 22px;
-    font-weight: 600;
-    transition: color 1s ease-out;
-}
-.arrow{
-    background-color: #183F30;
-    width: 65px;
-    height: 65px;
-    border-radius: 44.69px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.get-started:hover .arrow{
-    width: 0;
-    opacity: 0;
-    transition: width 1s ease-out;
-}
-/*!***********************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[12].use[3]!./src/components/SocialIcons/social.css ***!
-  \***********************************************************************************************************************************************************************************************************************************************************************************/
-.social {
-    /* position: absolute; */
-    top: 303px;
-    right: 131px;
-    display: flex;
-    justify-content: flex-start;
-    gap: 20px;
-    flex-direction: column;
-
-}
-
-.social-icon {
-    height: 22px;
-    width: 22px;
-}
-
-.social-icon img {
-    height: 100%;
-    width: 100%;
-    -o-object-fit: cover;
-       object-fit: cover;
-}
-/*!***************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[12].use[3]!./src/components/TrendLine/TrendingLine.css ***!
-  \***************************************************************************************************************************************************************************************************************************************************************************************/
-.trend-outer-section {
-    width: 100%;
-    height: 200px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.outer-basic {
-
-    background-color: rgba(0, 0, 0, 0.37);
-    gap: 10px;
-    position: relative;
-    right: 0;
-    width: 645px;
-    height: 182px;
-    border-radius: 12px;
-}
-
-.trending-inside {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    left: -20px;
-    top: 18px;
-    position: absolute;
-    gap: 20px;
-
-}
-
-.img-inside img {
-    width: 164px;
-    height: 145px;
-    border-radius: 16px;
-}
-
-.trending-inside-para {
-    width: 300px;
-}
-
-.trending-inside-para h5,
-p {
-    margin: 0;
-}
-
-.trending-inside-para h5 {
-    font-weight: 700;
-    font-size: 20px;
-    color: rgba(5, 211, 93, 1);
-}
-
-.trending-inside-para p {
-    font-weight: 400;
-    font-size: 16px;
-    color: white;
-    text-transform: capitalize;
-}
-
-/* .other_trending-lines .trending_pic_1,
-.trending_pic_2,
-.trending_pic_3,
-.trending_pic_4,
-.trending_pic_5,
-.trending_pic_6,
-.trending_pic_7,
-.trending_pic_8,
-.trending_pic_9,
-.trending_pic_10,
-.trending_pic_11 {
-    height: 57px;
-    width: 57px;
-    overflow: hidden;
-    border-radius: 13px;
-} */
-
-.trending_icon_wrapper .trending-icon {
-    height: 57px;
-    width: 57px;
-    overflow: hidden;
-    border-radius: 13px;
-   
-}
-.other_trending-lines { 
-    position: relative;
-    height: auto;
-    width: 200px;
-}
-.other_trending-lines .trending_icon_wrapper{
-    height: 57px;
-    overflow: hidden;
-    border-radius: 13px;
-    display: flex;
-    justify-content: flex-start;
-    gap: 20px;
-    left: -100px;
-    position: absolute;
-    animation-name: example;
-    animation-duration: 20s;
-    animation-iteration-count: infinite;
-}
-@keyframes example {
-    0% {
-        left: -100px;
-      }
-      50% { 
-        left: calc(100% - 100px); 
-       }
-      100% {
-        left: -100px;     
-      }
-}
-
-.trending_pic_1 {
-    background: #C6234E;
-
-}
-
-.trending_pic_2 {
-    background-color: #D60665;
-
-}
-
-.trending_pic_3 {
-    background-color: #000000;
-
-}
-
-.trending_pic_4 {
-    /* background-color: #FF5A00; */
-    background-color: #ffffff;
-
-}
-
-.trending_pic_5 {
-    background-color: #00CDBD;
-
-}
-
-.trending_pic_6 {
-    background: linear-gradient(228.67deg, #00E784 6.53%, #A6EDF2 89.64%);
-    ;
-
-}
-
-.trending_pic_7 {
-    background-color: #D60665;
-
-}
-
-.trending_pic_8 {
-    background-color: #ffffff;
-
-}
-
-.trending_pic_9 {
-    background-color: #ffffff;
-
-}
-
-.trending_pic_10 {
-    background: #003462;
-
-
-}
-
-.trending_pic_11 {
-    background-color: #D60665;
-
-}
-/*!********************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[12].use[3]!./src/components/ScrollDownBtn/scrolldownBtn.css ***!
-  \********************************************************************************************************************************************************************************************************************************************************************************************/
-.scrolldownBtnStyle{
-    width: 65px;
-    height: 85px;
-    background-color: #183F30;
-    border: 10px solid white;
-    border-radius: 40px;
-    position: relative;
-    /* transform: rotate(0.5turn); */
-}
-
-.scrolldownBtnStyle .btn-arrow-style {
-    top: 0px;
-    position: absolute;
-    animation-name: scrollBtnDownAnim;
-    animation-duration: 1s;
-    animation-iteration-count: infinite;
-    animation-timing-function: ease-out;
-    
-}
-
-@keyframes scrollBtnDownAnim {
-    0% {
-        transform:translate(0px, 1px);
-    }
-
-    50% {
-        transform:translate(0px, 23px);
-    }
-
-    100% {
-        transform:translate(0px, 1px);
-    }
-}
-/*!***********************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[12].use[3]!./src/components/HeaderMenu1/header.css ***!
-  \***********************************************************************************************************************************************************************************************************************************************************************************/
-.header-container{
-    position: relative;
-    margin-bottom: 50px;
-}
-.header-container video{
-    position: relative;
-    z-index: 0;
-}
-.vid-overlay {
-    position: absolute;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    background: transparent;
-    display: flex;
-    flex-direction: column;
-}
-
-.scroll-down-pos{
-    bottom: -25px;
-    left: 50%;
-    position: absolute;
-}
-
-
-/*!*************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[12].use[3]!./src/components/PowerfulSol/PowerSol.css ***!
-  \*************************************************************************************************************************************************************************************************************************************************************************************/
-.powerful-content-main{
-    width: 100%;
-    height: 654px;
-    display: flex;
-    gap: 50px;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background-color: aliceblue;
-    margin-bottom: 100px;
-    
-}
-.main-outer{
-    border-radius: 20px;
-    overflow: hidden;
-    display: flex;
-    justify-content: flex-start;
-    gap: 10px;
-}
-.powerful-content-main-heading{
-    font-weight: 700;
-    font-size: 44px;
-    text-align: center;
-}
-.powerful-content-main-description{
-    width: 100%;
-    height: 422px;
-    background-color: white;
-    display: flex;
-    justify-content: flex-start;
-    width: 740px;
-    
-}
-.man-with-cap{
-    overflow: hidden;
-    margin-right: 20px;
-    min-width: 40%;
-}
-.man-with-cap img{
-    height: 100%;
-    width: auto;
-    -o-object-fit: cover;
-       object-fit: cover;
-    left: -40px;
-    position: relative;
-}
-.text-menu-engineering{
-    display: flex;
-    justify-content: space-around;
-    flex-direction: column;
-   
-
-}
-.text-menu-engineering-section{
-    display: flex;
-    justify-content: space-between;
-    flex-direction: column;
-}
-.read-more-green{
-    text-decoration: underline;
-    color: rgba(5, 211, 93, 1);
-    font-weight: 400;
-    background-color: transparent;
-    border: none;
-
-}
-.menu-engineering-text span{
-    font-weight: 500;
-    font-size: 36px;
-    color: rgba(24, 63, 48, 1);
-}
-.menu-text-description span{
-    font-size: 17px;
-    font-weight: 300;
-}
-.image-section{
-    width: 100%;
-    display: flex;
-    height: 422px;
-    gap: 10px;
-}
-.img-1{
-    width: 50%;
-    height: 100%;
-    background-image: url(/_next/static/media/box_1.70a82b65.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    position: relative;
-    overflow: hidden;
-    border-radius: 10px;
-}
-.box_1_text{
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.413);
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    flex-direction: column;
-    padding: 8px 16px;
-}
-
-.laptop-1{
-    width: 50%;
-    height: 100%;
-    background-image: url(/_next/static/media/laptop_1.6d750f44.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    position: relative;
-    overflow: hidden;
-    border-radius: 10px;
-}
-.box_1_text span{
-    font-size: 21px;
-    font-weight: 500;
-    text-transform: capitalize;
-    color: white;
-    text-align: end;
-}
-
 /*!*******************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[12].use[3]!./src/app/Home/home.css ***!
   \*******************************************************************************************************************************************************************************************************************************************************************/
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Rubik+Mono+One&display=swap');
+
 .meet-us-btn {
     width: auto;
     height: 27px;
@@ -623,18 +11,21 @@ p {
     border-radius: 100px;
     border: none;
     display: flex;
-    
+
 }
-.meet-us-btn img{
+
+.meet-us-btn img {
     height: 100%;
     width: 100%;
 }
-.meet-us-btn .meet-us-arrow{
+
+.meet-us-btn .meet-us-arrow {
     height: 15px;
     width: 15px;
     margin-right: 5px;
 }
-.meet-us-btn span{
+
+.meet-us-btn span {
     font-weight: 700;
     font-size: 19px;
     letter-spacing: 1.85px;
@@ -659,12 +50,14 @@ p {
 .lyncc-platform-text-1 {
     font-weight: 700;
     font-size: 36px;
+    color: #183F30;
 }
 
 .lyncc-platform-text-2 {
     font-size: 18px;
     font-weight: 400;
     color: rgba(24, 63, 48, 1);
+    line-height: 27px;
 }
 
 .text-section {
@@ -680,19 +73,61 @@ p {
     height: 57px;
     border-radius: 229px;
     background-color: rgba(24, 63, 48, 1);
-    color: white;
     border: 1px solid rgba(24, 63, 48, 1);
+    outline: none;
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: width 2s ease-in-out;
+    position: relative;
+    overflow: hidden;
+}
+
+.slide-download-lyncc-prof {
+    width: 100%;
+    height: 100%;
+    left: -300px;
+    background: rgba(194, 200, 182, 1);
+    border-radius: 229px;
+    position: absolute;
+    transition: all .35s ease-Out;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 0;
+    z-index: 1;
+}
+
+.slide-download-lyncc-prof p {
+    color: rgba(24, 63, 48, 1);
+    transition: all .35s ease-Out;
+    font-size: 19.12px;
+    font-weight: 500;
+}
+
+.download-lyncc-prof:hover .slide-download-lyncc-prof {
+    left: 0;
+}
+
+.download-lyncc-prof:hover p {
+    color: rgba(24, 63, 48, 1);
 
 }
-.download-lyncc-prof .profile-download-arrow{
+
+
+
+.download-lyncc-prof .profile-download-arrow {
     height: 26px;
     width: 36px;
 }
 
-.lyncc-platform-img{
+.download-lyncc-prof p {
+    color: rgba(194, 200, 182, 1);
+    font-weight: 500; 
+    font-size:  19.12px;
+}
+
+.lyncc-platform-img {
     border-radius: 20px;
     overflow: hidden;
 }
@@ -700,7 +135,7 @@ p {
 .lyncc-platform-img video {
     height: 100%;
     width: 100%;
-    
+
 
 }
 
@@ -714,15 +149,15 @@ p {
     border-radius: 20px;
 }
 
-.tell-story-img {
-    background-image: url(/_next/static/media/3.60690297.png);
+/* .tell-story-img {
+    background-image: url("../../../public/3.png");
     width: 100%;
     height: 307px;
     background-repeat: no-repeat;
     background-size: cover;
     opacity: 0.2;
     border-radius: 20px;
-}
+} */
 
 .tell-story-content {
     position: absolute;
@@ -735,11 +170,20 @@ p {
 
 }
 
-.lyncc-tell-story-text {
-    font-weight: 500;
+.lyncc-tell-story-text p {
+    font-weight: 400;
     font-size: 36px;
     color: white;
     text-transform: capitalize;
+}
+
+.lyncc-tell-story-text .lyncc-alone {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 36px;
+    color: rgb(161 161 161);
+    letter-spacing: 5px;
 }
 
 .story-numbers {
@@ -761,16 +205,23 @@ p {
 .story-item .story-item-text {
     font-weight: 700;
     font-size: 65px;
+    color: white;
 }
 
 .partner-logos {
-    background-image: url(/_next/static/media/6.0aa999d8.jpg);
-    width: 100%;
+    /* background-image: url("../../../public/6.jpg"); */
+    /* width: 100%;
     height: 100%;
-    margin-bottom: 100px;
     background-size: cover;
-    background-repeat: no-repeat;
-    position: relative;
+    background-repeat: no-repeat; */
+    /* position: relative; */
+}
+
+.partner-logos img {
+    height: 100%;
+    width: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
 }
 
 /* .lyncc-logo img {
@@ -799,7 +250,8 @@ p {
     background-color: #DB0A5B;
 
 }
-.wessel img{
+
+.wessel img {
     height: 100%;
     width: 50%;
     display: block;
@@ -824,6 +276,7 @@ p {
     overflow: hidden;
     background-color: #FFFFFF;
 }
+
 .mrsool img {
     height: 100%;
     width: 100%;
@@ -857,7 +310,7 @@ p {
     width: 146px;
     height: 55px;
     border-radius: 100px;
-    background-image: url(/_next/static/media/hunger_station.ef2e99b3.png);
+    background-image: url(webpack:///mini-css-extract-plugin//_next/static/media/hunger_station.ef2e99b3.png);
     /* background-size: cover;
     background-repeat: no-repeat;
     background-position: center; */
@@ -916,6 +369,7 @@ p {
     background-color: #FFFFFF;
     padding: 10px;
 }
+
 .jahez img {
     height: 100%;
     width: 100%;
@@ -940,6 +394,7 @@ p {
     overflow: hidden;
     background-color: #004374;
 }
+
 .to_you img {
     height: 100%;
     width: 100%;
@@ -962,12 +417,13 @@ p {
     background-color: #FFFFFF;
     padding: 10px;
 }
+
 .talabat img {
     height: 100%;
     width: 100%;
-    
+
     -o-object-fit: scale-down;
-    
+
        object-fit: scale-down;
 }
 
@@ -1024,14 +480,17 @@ p {
     margin-bottom: 20px;
 
 }
-.single-challenge-card:hover{
-    background-color:rgba(24, 63, 48, 1);
+
+.single-challenge-card:hover {
+    background-color: rgba(24, 63, 48, 1);
     height: 600px;
 }
-.challenge_text_hover{
+
+.challenge_text_hover {
     display: none;
 }
-.single-challenge-card:hover .challenge_text_hover{
+
+.single-challenge-card:hover .challenge_text_hover {
     display: flex;
     justify-content: space-between;
     flex-direction: column;
@@ -1099,7 +558,8 @@ p {
     text-transform: capitalize;
 }
 
-.single-challenge-card:hover .chanllenge_des, .chanllenge_heading{
+.single-challenge-card:hover .chanllenge_des,
+.chanllenge_heading {
     color: white;
 }
 
@@ -1213,18 +673,27 @@ p {
     width: 100%;
     height: 410px;
     /* background-color:rgba(51, 139, 105, 1); */
-    background: linear-gradient(109.63deg, #79999D 25.38%, #338B69 107.1%);
+    /* background: linear-gradient(109.63deg, #79999D 25.38%, #338B69 107.1%); */
     position: relative;
+
+}
+
+.integration-section img {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
 
 }
 
 .intgration-img {
     width: 100%;
-    height: 410px;
-    background-image: url(/_next/static/media/integration_img.fcd6aa25.png);
-    background-size: cover;
+    height: 100%;
+    position: absolute;
+    /* background-image: url("../../../public/integration_img.png"); */
+    /* background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: center; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -1269,11 +738,42 @@ p {
     border-radius: 229px;
     width: 279px;
     height: 57px;
-    background-color: rgba(24, 63, 48, 1);
-    border: 1px solid rgba(24, 63, 48, 1);
+    background-color: rgba(5, 211, 93, 1);
+    border: 1px solid rgba(5, 211, 93, 1);
+    position: relative;
+    overflow: hidden;
+   
+}
+.slide-integ-submit{
+    width: 100%;
+    height: 100%;
+    left: -300px;
+    background: rgba(194, 200, 182, 1);
+    border-radius: 229px;
+    position: absolute;
+    transition: all .35s ease-Out;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 0;
+}
+
+.submit .int-submit-text {
+    color: rgba(24, 63, 48, 1);
+    transition: all .35s ease-Out;
+    font-size: 19.12px;
+    font-weight: 500;
+}
+
+.submit:hover .slide-integ-submit {
+    left: 0;
+}
+
+.int-submit-text{
     color: white;
 }
-.core-focus-wrapper__{
+
+.core-focus-wrapper__ {
     width: 100%;
     height: auto;
     gap: 20px;
@@ -1294,7 +794,7 @@ p {
     height: 100%;
     width: 466px;
     display: flex;
-    
+
     align-items: center;
 }
 
@@ -1306,6 +806,7 @@ p {
     overflow: hidden;
     /* padding: 30px; */
 }
+
 .section-2 img {
     height: 100%;
     width: 100%;
@@ -1319,6 +820,7 @@ p {
     overflow: hidden;
     /* padding: 30px; */
 }
+
 .section-3 img {
     height: 100%;
     width: 100%;
@@ -1382,7 +884,7 @@ p {
 }
 
 .find-your-plan-inner {
-    width: 880px;
+    width: 1144px;
     height: 649px;
     display: flex;
     flex-direction: column;
@@ -1594,12 +1096,13 @@ p {
     width: 100%;
 }
 
-.blog-card-small{
+.blog-card-small {
     width: 367px;
     height: 282px;
     opacity: 0.7;
 }
-.blog-card-big{
+
+.blog-card-big {
     width: 450px;
     height: 345px;
 }
@@ -1625,8 +1128,29 @@ p {
     width: 100%;
     background-color: rgba(0, 0, 0, 0.363);
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
     flex-direction: column;
+}
+.event-wrapper{
+    width: 100%;
+    height: auto;
+    padding: 15px;
+}
+.event-wrapper .event-blog{
+    width: 82px;
+    height: 34px;
+    background-color: rgba(5, 211, 93, 1);
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.event-blog p{
+    font-weight: 400;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    text-transform: capitalize;
 }
 
 .blog-heading {
@@ -1644,7 +1168,7 @@ p {
     justify-content: flex-end;
 }
 
-.blog-main-text{
+.blog-main-text {
     margin-bottom: 20px;
 }
 
@@ -1653,6 +1177,7 @@ p {
     font-size: 14px;
     color: white;
 }
+
 .blog-card-big .blog-main-text span {
     font-weight: 400;
     font-size: 22px;
@@ -1812,7 +1337,7 @@ p {
     margin-bottom: 100px;
 }
 
-.client-share-exp-slider{
+.client-share-exp-slider {
     width: 100%;
     display: flex;
     justify-content: center;
@@ -1913,9 +1438,9 @@ p {
 
 .transform-business-content-para-1 {
 
-font-weight: 700;
-font-size: 36px;
-color: white;
+    font-weight: 700;
+    font-size: 36px;
+    color: white;
 }
 
 .transform-business-content-para-2 {
@@ -1926,39 +1451,745 @@ color: white;
     color: white;
 
 }
-.transform-business-content{
+
+.transform-business-content {
     height: 100%;
     width: 600px;
     display: flex;
     justify-content: space-around;
     flex-direction: column;
 }
-.req-demo-btn{
+
+.req-demo-btn {
     background-color: #183F30;
     width: 241px;
     height: 57px;
     border-radius: 229px;
-    border:  1px solid #183F30;
+    border: 1px solid #183F30;
     color: white;
 }
-.req-demo-btn-text{
+
+.req-demo-btn-text {
     display: flex;
     justify-content: space-around;
 }
-.client-list{
+
+.client-list {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
     height: 100%;
 }
-.exp-imgs{
-    width: 50%;
+
+.exp-imgs {
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.integration-title{
+     width: auto;
+     height: 27px;
+     border-radius: 100px;
+     display: flex;
+     justify-content: center;
+     /* align-items: center; */
+}
+.integration-title p {
+    text-transform: uppercase;
+    color: rgba(5, 211, 93, 1);
+    font-size: 19px;
+    letter-spacing: 2px;
+    font-weight: 700;
+
+}
+.integ-arrow{
+    height: 15px;
+    width: 15px;
+    margin-right: 5px;
+}
+.integ-arrow img {
+   height: 100%;
+   width: 100%;
+
+}
+/*!********************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[12].use[3]!./src/components/WebinarTicker/WebinarTicker.css ***!
+  \********************************************************************************************************************************************************************************************************************************************************************************************/
+.pop-header { 
+    background: #183F30;
+    /* position: absolute; */
+    width: 100%;
+    height: 53px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* padding: 6px 103px 16px 96px; */
+}
+.remaining-time {
+    width: 290px;
+    height: 18px;
+    left: 0px;
+    top: 0px;
+}
+
+.remaining-time p{
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    color: #05D35D;
+}
+.attend-webinar p{
+    font-family: 'Ubuntu';
+    font-size: 19px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0em;
+    color: #FFFFFF;
+}
+
+.sign-up-btn {
+    background: #05D35D;
+    width: 102px;
+    height: 32px;
+    /* padding: 8px 24px 8px 24px; */
+    color: #183F30;
+    border-radius: 100px;
+    outline: none;
+    border: 1px solid #05D35D;
+    font-family: 'Ubuntu';
+}
+.cross-btn{
+    color: #FFFFFF;
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+/*!**********************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[12].use[3]!./src/components/HomeMenu/homemenu.css ***!
+  \**********************************************************************************************************************************************************************************************************************************************************************************/
+.home-menu-outer {
+    width: 100%;
+    height: 50px;
+    margin-top: 20px;
+    /* position: absolute; */
+    display: flex;
+    justify-content: center;
+}
+
+.home-menu-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+}
+
+.main-menu-btns {
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+}
+
+.menu-item {
+    color: #F3FDFE;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+text-decoration: none;
+}
+
+.logo-lyncc {
+    font-size: 50px;
+    font-weight: 500;
+}
+
+.language-dropdown {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 0em;
+    color: #F3FDFE;
+
+}
+a{
+    text-decoration: none;
+  }
+/*!******************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[12].use[3]!./src/components/RevolutionText/Revolution.css ***!
+  \******************************************************************************************************************************************************************************************************************************************************************************************/
+.revolution-section {
+    width: 679px;
+    height: 212.65px;
+    top: 229.82px;
+    Left: 149px;
+    /* position: absolute; */
+    color: #F3FDFE;
+    display: flex;
+    flex-direction: column;
+}
+.revolution-outer{ 
+    display: flex;
+    width: 100%;
+    height: 400px;
+}
+.revolution-inner{
+    display: flex;
+    width: 100%;
+    height: 400px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.revolution-section .p1 {
+    font-size: 50px;
+    font-weight: 500;
+    line-height: 75px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #F3FDFE;
+    margin: 0;
+    
+
+
+}
+
+.revolution-section .p2 {
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 75px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #F3FDFE;
+    margin: 0;
+}
+
+.revo-special {
+    color: #05D35D;
+    font-style: italic;
+    text-transform: capitalize;
+    /* animation-name: HeaderTextAnim;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-out; */
+    
+}
+
+/* @keyframes HeaderTextAnim {
+    0% {
+        transform:translate(0px, 1px);
+    }
+
+    50% {
+        transform:translate(0px, 21px);
+    }
+
+    100% {
+        transform:translate(0px, 1px);
+    }
+} */
+/*!**************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[12].use[3]!./src/components/GetStarted/GetStarted.css ***!
+  \**************************************************************************************************************************************************************************************************************************************************************************************/
+.get-started {
+    background-color: #C2C8B6;
+    width: 231px;
+    height: 69px;
+    padding: 2.91px 2.3px 1.99px 30.59px;
+    border-radius: 279.69px;
+    gap: 11.65px;
+    text-transform: capitalize;
+    border: 1px solid #C2C8B6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+    
+}
+.get-started p{
+    color: #183F30;
+    font-size: 19px;
+    font-weight: 600;
+}
+.get-started:hover p{
+    color: #C2C8B6;
+    font-size: 22px;
+    font-weight: 600;
+    transition: color 1s ease-out;
+}
+.get-started:hover{
+    background-color: #183F30;
+   
+    width: 231px;
+    height: 69px;
+    padding: 2.91px 2.3px 1.99px 30.59px;
+    border-radius: 279.69px;
+    gap: 11.65px;
+    text-transform: capitalize;
+    border: 2px solid #C2C8B6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.arrow{
+    background-color: #183F30;
+    width: 65px;
+    height: 65px;
+    border-radius: 44.69px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.get-started:hover .arrow{
+    width: 0;
+    opacity: 0;
+    transition: width 1s ease-out;
+}
+/*!***********************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[12].use[3]!./src/components/SocialIcons/social.css ***!
+  \***********************************************************************************************************************************************************************************************************************************************************************************/
+.social {
+    /* position: absolute; */
+    top: 303px;
+    right: 131px;
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+    flex-direction: column;
+
+}
+
+.social-icon {
+    height: 22px;
+    width: 22px;
+}
+
+.social-icon img {
+    height: 100%;
+    width: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+}
+/*!***************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[12].use[3]!./src/components/TrendLine/TrendingLine.css ***!
+  \***************************************************************************************************************************************************************************************************************************************************************************************/
+.trend-outer-section {
+    width: 100%;
+    height: 200px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
+.outer-basic {
+    background-image: url(/_next/static/media/trending_pic_left.7468feb7.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    /* background-color: rgba(0, 0, 0, 0.37); */
+    gap: 10px;
+    position: relative;
+    right: 0;
+    width: 645px;
+    height: 182px;
+    border-radius: 12px;
+}
+
+.trending-inside {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    left: 0;
+    top: 18px;
+    position: absolute;
+    gap: 20px;
+
+}
+
+.img-inside img {
+    width: 164px;
+    height: 145px;
+    border-radius: 16px;
+}
+
+.trending-inside-para {
+    width: 300px;
+}
+
+.trending-inside-para h5,
+p {
+    margin: 0;
+}
+
+.trending-inside-para h5 {
+    font-weight: 700;
+    font-size: 20px;
+    color: rgba(5, 211, 93, 1);
+}
+
+.trending-inside-para p {
+    font-weight: 400;
+    font-size: 16px;
+    color: white;
+    text-transform: capitalize;
+}
+
+/* .other_trending-lines .trending_pic_1,
+.trending_pic_2,
+.trending_pic_3,
+.trending_pic_4,
+.trending_pic_5,
+.trending_pic_6,
+.trending_pic_7,
+.trending_pic_8,
+.trending_pic_9,
+.trending_pic_10,
+.trending_pic_11 {
+    height: 57px;
+    width: 57px;
+    overflow: hidden;
+    border-radius: 13px;
+} */
+
+.trending_icon_wrapper .trending-icon {
+    height: 57px;
+    width: 57px;
+    overflow: hidden;
+    border-radius: 13px;
+   
+}
+.other_trending-lines { 
+    position: relative;
+    height: auto;
+    width: 200px;
+}
+.other_trending-lines .trending_icon_wrapper{
+    height: 57px;
+    overflow: hidden;
+    border-radius: 13px;
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+    left: -100px;
+    position: absolute;
+    animation-name: example;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+}
+@keyframes example {
+    0% {
+        left: -100px;
+      }
+      50% { 
+        left: calc(100% - 100px); 
+       }
+      100% {
+        left: -100px;     
+      }
+}
+
+.trending_pic_1 {
+    background: #C6234E;
+
+}
+
+.trending_pic_2 {
+    background-color: #D60665;
+
+}
+
+.trending_pic_3 {
+    background-color: #000000;
+
+}
+
+.trending_pic_4 {
+    /* background-color: #FF5A00; */
+    background-color: #ffffff;
+
+}
+
+.trending_pic_5 {
+    background-color: #00CDBD;
+
+}
+
+.trending_pic_6 {
+    background: linear-gradient(228.67deg, #00E784 6.53%, #A6EDF2 89.64%);
+    ;
+
+}
+
+.trending_pic_7 {
+    background-color: #D60665;
+
+}
+
+.trending_pic_8 {
+    background-color: #ffffff;
+
+}
+
+.trending_pic_9 {
+    background-color: #ffffff;
+
+}
+
+.trending_pic_10 {
+    background: #003462;
+
+
+}
+
+.trending_pic_11 {
+    background-color: #D60665;
+
+}
+/*!********************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[12].use[3]!./src/components/ScrollDownBtn/scrolldownBtn.css ***!
+  \********************************************************************************************************************************************************************************************************************************************************************************************/
+.scrolldownBtnStyle{
+    width: 65px;
+    height: 85px;
+    background-color: #183F30;
+    border: 10px solid white;
+    border-radius: 40px;
+    position: relative;
+    /* transform: rotate(0.5turn); */
+}
+
+.scrolldownBtnStyle .btn-arrow-style {
+    top: 0px;
+    position: absolute;
+    animation-name: scrollBtnDownAnim;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-out;
+    
+}
+
+@keyframes scrollBtnDownAnim {
+    0% {
+        transform:translate(0px, 1px);
+    }
+
+    50% {
+        transform:translate(0px, 23px);
+    }
+
+    100% {
+        transform:translate(0px, 1px);
+    }
+}
+/*!***********************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[12].use[3]!./src/components/HeaderMenu1/header.css ***!
+  \***********************************************************************************************************************************************************************************************************************************************************************************/
+.header-container{
+    position: relative;
+    margin-bottom: 50px;
+}
+.header-container video{
+    position: relative;
+    z-index: 0;
+}
+.vid-overlay {
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: transparent;
+    display: flex;
+    flex-direction: column;
+}
+
+.scroll-down-pos{
+    bottom: -25px;
+    left: 50%;
+    position: absolute;
+}
+
+
+/*!*************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[12].use[3]!./src/components/PowerfulSol/PowerSol.css ***!
+  \*************************************************************************************************************************************************************************************************************************************************************************************/
+.powerful-content-main{
+    width: 100%;
+    height: 654px;
+    display: flex;
+    gap: 50px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(59, 96, 100, 0.05);
+    margin-bottom: 100px;
+    
+}
+.main-outer{
+    border-radius: 20px;
+    overflow: hidden;
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+}
+.powerful-content-main-heading{
+    font-weight: 700;
+    font-size: 44px;
+    text-align: center;
+    width: 100%;
+}
+.powerful-content-main-description{
+    width: 100%;
+    height: 422px;
+    background-color: white;
+    display: flex;
+    justify-content: flex-start;
+    width: 740px;
+    
+}
+.man-with-cap{
+    overflow: hidden;
+    margin-right: 20px;
+    min-width: 40%;
+}
+.man-with-cap img{
+    height: 100%;
+    width: auto;
+    -o-object-fit: cover;
+       object-fit: cover;
+    left: -40px;
+    position: relative;
+}
+.text-menu-engineering{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+   
+
+}
+.text-menu-engineering-section{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.read-more-green{
+    background-color: transparent;
+    border: none;
+}
+.read-more-green span{
+    text-decoration: underline;
+    color: rgba(5, 211, 93, 1);
+    font-weight: 400;
+   
+}
+.menu-engineering-text span{
+    font-weight: 500;
+    font-size: 36px;
+    color: rgba(24, 63, 48, 1);
+}
+.menu-text-description span{
+    font-size: 17px;
+    font-weight: 300;
+}
+.image-section{
+    width: 100%;
+    display: flex;
+    height: 422px;
+    gap: 10px;
+}
+.img-1{
+    width: 50%;
+    height: 100%;
+    background-image: url(/_next/static/media/box_1.70a82b65.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+}
+.box_1_text{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.413);
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+    padding: 8px 16px;
+}
+
+.laptop-1{
+    width: 50%;
+    height: 100%;
+    background-image: url(/_next/static/media/laptop_1.6d750f44.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+}
+.box_1_text span{
+    font-size: 21px;
+    font-weight: 500;
+    text-transform: capitalize;
+    color: white;
+    text-align: end;
+}
+
+/*!**********************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[12].use[3]!./src/components/TextTitleForHomePage/TextTitleForHomePage.css ***!
+  \**********************************************************************************************************************************************************************************************************************************************************************************************************/
+.witness_the_efficiency-title-section {
+
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.witness_the_efficiency-title {
+    /* background-color: rgba(5, 211, 93, 1); */
+    width: auto;
+    height: 27px;
+    border-radius: 100px;
+    /* padding: 5px 25px 5px 25px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.witness_the_efficiency-title p {
+    text-transform: uppercase;
+    color: rgba(5, 211, 93, 1);
+    font-size: 19px;
+    letter-spacing: 2px;
+    font-weight: 700;
+
+}
+
+.witness_the_efficiency-text1 span {
+    font-weight: 700;
+    font-size: 44px;
+    text-transform: capitalize;
+}
+
+.witness_the_efficiency-text2 span {
+    font-weight: 400;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+.meet-us-arrow{
+    height: 27px;
+    width: 27px;
+}
 /*!*************************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[12].use[3]!./node_modules/rc-slider/assets/index.css ***!
   \*************************************************************************************************************************************************************************************************************************************************************************************/
@@ -2360,11 +2591,11 @@ color: white;
        object-fit: cover;
 
 }
-.sub-footer-price-section{
+.sub-footer-price-section{ 
     margin-top: 30px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: flex-start;
 }
 .hr-line{
     color: white;
@@ -2391,50 +2622,4 @@ color: white;
     font-weight: 400;
     font-size: 15px;
     color: white;
-}
-/*!**********************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[12].use[3]!./src/components/TextTitleForHomePage/TextTitleForHomePage.css ***!
-  \**********************************************************************************************************************************************************************************************************************************************************************************************************/
-.witness_the_efficiency-title-section {
-
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-.witness_the_efficiency-title {
-    /* background-color: rgba(5, 211, 93, 1); */
-    width: auto;
-    height: 27px;
-    border-radius: 100px;
-    /* padding: 5px 25px 5px 25px; */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.witness_the_efficiency-title p {
-    text-transform: uppercase;
-    color: rgba(5, 211, 93, 1);
-    font-size: 19px;
-    letter-spacing: 2px;
-    font-weight: 700;
-
-}
-
-.witness_the_efficiency-text1 span {
-    font-weight: 700;
-    font-size: 44px;
-    text-transform: capitalize;
-}
-
-.witness_the_efficiency-text2 span {
-    font-weight: 400;
-    font-size: 20px;
-    text-transform: capitalize;
-}
-.meet-us-arrow{
-    height: 27px;
-    width: 27px;
 }

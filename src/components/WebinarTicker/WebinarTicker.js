@@ -9,8 +9,8 @@ export default function WebinarTicker() {
     return (
         <>
             {isOpen && <div className="pop-header" onClick={toggleWebinarTicker}>
-                <div className="remaining-time"><span>3 Weeks - 2 Days - 10 hours - 45 Minutes</span></div>
-                <div className="attend-webinar"><span>To attend our webinar series Need For Speed</span></div>
+                <div className="remaining-time"><p>3 Weeks - 2 Days - 10 hours - 45 Minutes</p></div>
+                <div className="attend-webinar"><p>To attend our webinar series Need For Speed</p></div>
                 <div>
                     <button className="sign-up-btn">Sign Up</button>
                 </div>
