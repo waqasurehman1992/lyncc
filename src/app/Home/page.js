@@ -20,6 +20,81 @@ const Home = () => {
     const selectCurrencyType = (type) => {
         setCurrencyType(type)
     }
+    const onEnterMouseSec1 = (secChild) => {
+
+        let sec1C1 = document.getElementById("sec1C1");
+        let sec1C2 = document.getElementById("sec1C2");
+        if (secChild == "sec1C2") {
+            sec1C1.style.height = "15%"
+            sec1C2.style.position = "absolute"
+            sec1C2.style.height = "80%"
+            sec1C2.style.bottom = "0"
+        } else {
+            sec1C2.style.position = "absolute"
+            sec1C2.style.height = "20%"
+            sec1C1.style.height = "55%"
+        }
+    }
+    const resetAllCssSec1 = () => {
+        let sec1C1 = document.getElementById("sec1C1");
+        let sec1C2 = document.getElementById("sec1C2");
+        sec1C1.style.position = ""
+        sec1C1.style.height = ""
+        sec1C2.style.height = ""
+        sec1C2.style.bottom = ""
+        sec1C2.style.position = ""
+    }
+
+    const onEnterMouseSec2 = (secChild) => {
+
+        let sec2C1 = document.getElementById("sec2C1");
+        let sec2C2 = document.getElementById("sec2C2");
+        if (secChild == "sec2C2") {
+            sec2C1.style.height = "15%"
+            sec2C2.style.position = "absolute"
+            sec2C2.style.height = "80%"
+            sec2C2.style.bottom = "0"
+        } else {
+            sec2C2.style.position = "absolute"
+            sec2C2.style.height = "25%"
+            sec2C1.style.height = "70%"
+        }
+    }
+    const resetAllCssSec2 = () => {
+        let sec2C1 = document.getElementById("sec2C1");
+        let sec2C2 = document.getElementById("sec2C2");
+        sec2C1.style.position = ""
+        sec2C1.style.height = ""
+        sec2C2.style.height = ""
+        sec2C2.style.bottom = ""
+        sec2C2.style.position = ""
+    }
+
+    const onEnterMouseSec3 = (secChild) => {
+
+        let sec3C1 = document.getElementById("sec3C1");
+        let sec3C2 = document.getElementById("sec3C2");
+        if (secChild == "sec3C2") {
+            sec3C1.style.height = "15%"
+            sec3C2.style.position = "absolute"
+            sec3C2.style.height = "80%"
+            sec3C2.style.bottom = "0"
+        } else {
+            sec3C2.style.position = "absolute"
+            sec3C2.style.height = "25%"
+            sec3C1.style.height = "70%"
+        }
+    }
+    const resetAllCssSec3 = () => {
+        let sec3C1 = document.getElementById("sec3C1");
+        let sec3C2 = document.getElementById("sec3C2");
+        sec3C1.style.position = ""
+        sec3C1.style.height = ""
+        sec3C2.style.height = ""
+        sec3C2.style.bottom = ""
+        sec3C2.style.position = ""
+        sec3C1.style.top = ""
+    }
     return (
         <>
             <div style={{ marginBottom: "100px" }}>
@@ -203,7 +278,7 @@ const Home = () => {
                         <TitleAndDescriptionForSection icon={true} title={"overcome your challenges"} description={"addressing your business challenges"} />
                         <div className="challenge-cards">
                             <div className="sec-1">
-                                <div className="single-challenge-card">
+                                <div id="sec1C1" onMouseLeave={() => resetAllCssSec1("sec1C1")} onMouseEnter={() => onEnterMouseSec1("sec1C1")} className="single-challenge-card">
                                     <div className="challenge_text">
                                         <span className="chanllenge_heading">Challenge</span>
                                         <span className="chanllenge_des">
@@ -221,11 +296,11 @@ const Home = () => {
                                     </div>
 
                                     <div className="keyboard-img" >
-                                            <img src="./keyboard.png" alt="keyboard" />
-                                        </div>
+                                        <img src="./keyboard.png" alt="keyboard" />
+                                    </div>
 
                                 </div>
-                                <div className="single-challenge-card">
+                                <div id="sec1C2" onMouseLeave={() => resetAllCssSec1("sec1C2")} onMouseEnter={() => onEnterMouseSec1("sec1C2")} className="single-challenge-card">
                                     <div className="challenge_text">
                                         <span className="chanllenge_heading">Challenge</span>
                                         <span className="chanllenge_des">
@@ -243,8 +318,8 @@ const Home = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div>
-                                <div className="single-challenge-card ">
+                            <div className="sec-2">
+                                <div id="sec2C1" onMouseLeave={() => resetAllCssSec2("sec2C1")} onMouseEnter={() => onEnterMouseSec2("sec2C1")} className="single-challenge-card ">
                                     <div className="challenge_text">
                                         <span className="chanllenge_heading">Challenge</span>
                                         <span className="chanllenge_des">
@@ -261,7 +336,7 @@ const Home = () => {
                                         <img src="./discount_tag.png" alt="discount_tag" />
                                     </div>
                                 </div>
-                                <div className="single-challenge-card ">
+                                <div id="sec2C2" onMouseLeave={() => resetAllCssSec2("sec2C2")} onMouseEnter={() => onEnterMouseSec2("sec2C2")} className="single-challenge-card ">
                                     <div className="challenge_text">
                                         <span className="chanllenge_heading">Challenge</span>
                                         <span className="chanllenge_des">
@@ -280,8 +355,8 @@ const Home = () => {
                                 </div>
 
                             </div>
-                            <div>
-                                <div className="single-challenge-card ">
+                            <div className="sec-3">
+                                <div id="sec3C1" onMouseLeave={() => resetAllCssSec3("sec3C1")} onMouseEnter={() => onEnterMouseSec3("sec3C1")} className="single-challenge-card">
                                     <div className="challenge_text">
                                         <span className="chanllenge_heading">Challenge</span>
                                         <span className="chanllenge_des">
@@ -300,7 +375,7 @@ const Home = () => {
                                 </div>
 
 
-                                <div className="single-challenge-card ">
+                                <div id="sec3C2" onMouseLeave={() => resetAllCssSec3("sec3C2")} onMouseEnter={() => onEnterMouseSec3("sec3C2")} className="single-challenge-card ">
                                     <div className="challenge_text">
                                         <span className="chanllenge_heading">Challenge</span>
                                         <span className="chanllenge_des">
@@ -862,7 +937,7 @@ const Home = () => {
                                         </div> */}
                                         <p>Request a demo</p>
                                     </div>
-                                    <div style={{transform:"rotate(270deg)"}} className="profile-download-arrow">
+                                    <div style={{ transform: "rotate(270deg)" }} className="profile-download-arrow">
                                         <img src="./arrow-up.png" alt="arrow" height={"100%"} width={"100%"} />
 
                                     </div>

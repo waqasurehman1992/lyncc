@@ -478,12 +478,13 @@
     overflow: hidden;
     border-radius: 24px;
     margin-bottom: 20px;
+    transition: all 1s ease-in-out;
 
 }
 
 .single-challenge-card:hover {
     background-color: rgba(24, 63, 48, 1);
-    height: 600px;
+    /* height: 600px; */
 }
 
 .challenge_text_hover {
@@ -501,11 +502,11 @@
 
 .keyboard-img {
 
-    position: absolute;
-    bottom: -70px;
-    right: -35px;
-    height: 287px;
-    width: 287px;
+    position: relative;
+    bottom: 30px;
+    right: -65px;
+    height: 261px;
+    width: 261px;
 
 }
 
@@ -527,7 +528,20 @@
 
 }
 
+.sec-1{
+    position: relative;
+    overflow: hidden;
+}
 
+.sec-2{
+    position: relative;
+    overflow: hidden;
+}
+
+.sec-3{
+    position: relative;
+    overflow: hidden;
+}
 
 .challenge_text_hover .chanllenge_heading {
     color: rgba(5, 211, 93, 1);
@@ -565,11 +579,11 @@
 
 .discount_tag-img {
 
-    position: absolute;
-    bottom: -70px;
-    right: -35px;
-    height: 287px;
-    width: 287px;
+    position: relative;
+    bottom: 30px;
+    right: -65px;
+    height: 261px;
+    width: 261px;
 
 }
 
@@ -583,11 +597,11 @@
 
 .delivery_van-img {
 
-    position: absolute;
-    bottom: -30px;
-    right: -10px;
-    height: 212px;
-    width: 212px;
+    position: relative;
+    bottom: 30px;
+    right: -65px;
+    height: 261px;
+    width: 261px;
 
 }
 
@@ -601,11 +615,11 @@
 
 .clock-img {
 
-    position: absolute;
-    bottom: -70px;
-    right: -35px;
-    height: 287px;
-    width: 287px;
+    position: relative;
+    bottom: 30px;
+    right: -65px;
+    height: 261px;
+    width: 261px;
 
 }
 
@@ -619,11 +633,11 @@
 
 .caution-img {
 
-    position: absolute;
-    bottom: -90px;
-    right: -70px;
-    height: 287px;
-    width: 287px;
+    position: relative;
+    bottom: 30px;
+    right: -65px;
+    height: 261px;
+    width: 261px;
 
 }
 
@@ -637,11 +651,11 @@
 
 .challange-img {
 
-    position: absolute;
-    bottom: -80px;
-    right: -60px;
-    height: 287px;
-    width: 287px;
+    position: relative;
+    bottom: 30px;
+    right: -65px;
+    height: 261px;
+    width: 261px;
 
 }
 
